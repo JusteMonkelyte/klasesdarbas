@@ -1,0 +1,8 @@
+.pilkas { background-color: dimgrey; border: 1px solid #000000; float: left; width: 100px; height: 100px; margin: 5px; padding: 10px;}
+.melsvas { background-color: lightblue; border: 1px solid #000000; float: left; width: 100px; height: 100px; margin: 5px; padding: 10px}
+.zalias { background-color:lightgreen; border: 1px solid #000000; float: left; width: 100px; height: 100px; margin: 5px; padding: 10px}
+.rozinis { background-color: rosybrown; border: 1px solid #000000; float: left; width: 100px; height: 100px; margin: 5px; padding: 10px}
+
+
+.row { clear: both; overflow: hidden; }
+.table { border-left: 1px solid #000000; border-top: 1px solid #000000; }

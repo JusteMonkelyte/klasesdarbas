@@ -1,0 +1,32 @@
+html, body {height: 100%}
+
+div {
+    margin: 5px;
+    padding: 10px;
+    font-size: 25px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+
+}
+
+body {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+}
+
+div:nth-of-type(odd) {
+    background-color: dimgrey;
+}
+div:nth-of-type(2n) {
+    background-color: lightblue;
+}
+
+div:nth-of-type(4n) {
+    background-color: green;
+}
+
+div:nth-of-type(2n+16) {
+    background-color: pink;
+}
